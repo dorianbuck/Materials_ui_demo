@@ -2,6 +2,7 @@ import React from "react";
 import {
   Typography,
   AppBar,
+  Button,
   Card,
   CardActions,
   CardContent,
@@ -48,6 +49,20 @@ const App = () => {
               client-side routing and a non-root public URL. Learn how to
               configure a non-root public URL by running `npm run build`. -->
             </Typography>
+            <div>
+              <Grid container spacing={2} justify="center">
+                <Grid item>
+                  <Button variant="contained" color="primary">
+                    See my photos
+                  </Button>
+                </Grid>
+                <Grid item>
+                  <Button variant="outlined" color="primary">
+                    Secondary Action
+                  </Button>
+                </Grid>
+              </Grid>
+            </div>
           </Container>
         </div>
       </main>
